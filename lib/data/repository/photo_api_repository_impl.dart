@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:image_search/data/photo_api_repository.dart';
+import 'package:image_search/domain/repository/photo_api_repository.dart';
+import 'package:image_search/domain/model/photo.dart';
 
-import '../model/photo.dart';
 import 'package:http/http.dart' as http;
 
 class PixabayApi implements PhotoApiRepository {
